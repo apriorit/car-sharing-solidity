@@ -1,0 +1,16 @@
+{
+  "extends": "solhint:recommended",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "compiler-version": ["error", "0.8.9"],
+    "func-visibility": ["warn", { "ignoreConstructors": true }],
+    "constructor-syntax": "warn",
+    "quotes": ["error", "single"],
+    "not-rely-on-time": "off",
+    "const-name-snakecase": "warn",
+    "comprehensive-interface": "warn",
+    "func-param-name-mixedcase": "error",
+    "modifier-name-mixedcase": "error"
+  }
+}
